@@ -42,6 +42,7 @@ namespace BMI_Calculator
             this.WeightUnits = new System.Windows.Forms.Label();
             this.HeightText = new System.Windows.Forms.TextBox();
             this.WeightBox = new System.Windows.Forms.TextBox();
+            this.CALCULATE = new System.Windows.Forms.Button();
             this.ControlPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,6 +93,7 @@ namespace BMI_Calculator
             this.ControlPanel.Controls.Add(this.HeightUnits, 2, 0);
             this.ControlPanel.Controls.Add(this.WeightUnits, 2, 1);
             this.ControlPanel.Controls.Add(this.HeightText, 1, 0);
+            this.ControlPanel.Controls.Add(this.CALCULATE, 0, 2);
             this.ControlPanel.Location = new System.Drawing.Point(1, 127);
             this.ControlPanel.Name = "ControlPanel";
             this.ControlPanel.RowCount = 3;
@@ -155,6 +157,16 @@ namespace BMI_Calculator
             this.WeightBox.Size = new System.Drawing.Size(93, 45);
             this.WeightBox.TabIndex = 5;
             // 
+            // CALCULATE
+            // 
+            this.ControlPanel.SetColumnSpan(this.CALCULATE, 3);
+            this.CALCULATE.Location = new System.Drawing.Point(3, 201);
+            this.CALCULATE.Name = "CALCULATE";
+            this.CALCULATE.Size = new System.Drawing.Size(294, 45);
+            this.CALCULATE.TabIndex = 6;
+            this.CALCULATE.Text = "CALCULATE";
+            this.CALCULATE.UseVisualStyleBackColor = true;
+            // 
             // BMI_Calculator
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -188,6 +200,7 @@ namespace BMI_Calculator
         private System.Windows.Forms.Label HeightUnits;
         private System.Windows.Forms.Label WeightUnits;
         private System.Windows.Forms.TextBox HeightText;
+        private System.Windows.Forms.Button CALCULATE;
     }
 }
 
