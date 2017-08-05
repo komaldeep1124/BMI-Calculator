@@ -4,6 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// <summary>
+/// Komaldeep Kaur 300926834
+/// BMI CALCULATOR
+/// </summary>
 namespace BMI_Calculator
 {
     static class Program
@@ -16,7 +20,7 @@ namespace BMI_Calculator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new BMI_Calculator());
         }
     }
 }

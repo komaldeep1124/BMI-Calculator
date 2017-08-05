@@ -1,6 +1,10 @@
-﻿namespace BMI_Calculator
+﻿/// <summary>
+/// Komaldeep Kaur 300926834
+/// BMI CALCULATOR
+/// </summary>
+namespace BMI_Calculator
 {
-    partial class Form1
+    partial class BMI_Calculator
     {
         /// <summary>
         /// Required designer variable.
